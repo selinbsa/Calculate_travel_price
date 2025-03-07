@@ -9,7 +9,7 @@ public class Main {
         int age;
         int travel_type;
 
-
+        //The loop continues to ask for the distance until the distance is entered under the correct conditions.
         while (true) {
 
             System.out.println("Mesafeyi km türünden giriniz: ");
@@ -25,6 +25,7 @@ public class Main {
         }
         System.out.println("Girilen mesafe " + distance);
 
+        //The loop continues to ask for age until the age is entered under the correct conditions.
         while (true) {
 
             System.out.println("Yaşınızı giriniz: ");
@@ -39,6 +40,7 @@ public class Main {
         }
         System.out.println("Girilen yaş " + age);
 
+        //The loop continues to ask for the travel type until the travel type is entered with the correct conditions.
         while (true) {
 
             System.out.println("Yolculuk tipini giriniz (1 => Tek Yön , 2 => Gidiş Dönüş): ");
@@ -51,7 +53,7 @@ public class Main {
             }
 
         }
-        System.out.println("Yolculuk tipini " + travel_type);
+        System.out.println("Yolculuk tipi " + travel_type);
 
         double unit_price = 0.10;
         double price = distance * unit_price;
@@ -77,6 +79,7 @@ public class Main {
 
         }
 
+        //Showing total price to user
         System.out.println("Toplam tutar = " + total_price + " Tl");
 
     }
